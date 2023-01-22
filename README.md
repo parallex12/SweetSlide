@@ -15,21 +15,33 @@ import SweetSlide from "sweet-slider-expo";
 ```
 
 ```JSX
- <SweetSlide
-      containerInnerStyle={{ backgroundColor: "red" }}
-      containerStyle={{ backgroundColor: "red" }}
-      height={500}
-      popup={props?.popup}
-      setPopup={props?.setPopup}
+import React, { useState} from "react";
+import SweetSlide from "sweet-slider-expo";
+import {Text,View,} from "react-native";
+const App = () => {
+  const [popup,setPopup]=useState(false)
+
+  return (
+   <SweetSlide
+     containerInnerStyle={{ backgroundColor: "red" }}
+     containerStyle={{ backgroundColor: "red" }}
+     height={500}
+     popup={popup}
+     setPopup={setPopup}
     >
-    <Text>Hello</Text>
+      <Text>Hello</Text>
     </SweetSlide>
+  );
+};
+
 ```
 
 ## API
 
 | Property            |                Description                | Type          |
 | ------------------- | :---------------------------------------: | ------------- |
+| popup               |      pass popup state to open close       | useState      |
+| setPopup            |     pass setPopup state to open close     | useState      |
 | containerStyle      |         Style for main container          | object        |
 | containerInnerStyle |     Style for inner content container     | object        |
 | height              |         the height for the slider         | Number(float) |
