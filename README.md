@@ -50,7 +50,6 @@ const App = () => {
 | containerInnerStyle |     Style for inner content container     | object        |
 | height              |         the height for the slider         | Number(float) |
 | children            | pass the inner tags inclide <SweetSlider> | JSX           |
-| onClose             |          Fires when modal closes          | function      |
 
 ## Acknowledgement
 
