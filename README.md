@@ -1,6 +1,6 @@
-## Gesture Slider modal for react native and expo by adlerware.
+### Gesture Slider modal for react native and expo by adlerware.
 
-## Repo :- https://github.com/parallex12/SweetSlide.git
+#### Repo :- https://github.com/parallex12/SweetSlide.git
 
 ## Getting Started
 
