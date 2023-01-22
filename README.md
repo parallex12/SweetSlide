@@ -7,6 +7,7 @@
 1. Installation
 
    - Using npm: `npm i sweet-slider-expo`
+   - Using npm: `npm i rn-sliding-up-panel`
 
 ## Usage
 
