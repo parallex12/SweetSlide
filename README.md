@@ -17,20 +17,24 @@ import SweetSlide from "sweet-slider-expo";
 ```JSX
 import React, { useState} from "react";
 import SweetSlide from "sweet-slider-expo";
-import {Text,View,} from "react-native";
+import {Text,View,Button} from "react-native";
 const App = () => {
   const [popup,setPopup]=useState(false)
 
   return (
-   <SweetSlide
-     containerInnerStyle={{ backgroundColor: "red" }}
-     containerStyle={{ backgroundColor: "red" }}
-     height={500}
-     popup={popup}
-     setPopup={setPopup}
-    >
-      <Text>Hello</Text>
-    </SweetSlide>
+    <View style={{ flex: 1 }}>
+      <SweetSlide
+        containerInnerStyle={{ backgroundColor: "red" }}
+        containerStyle={{ backgroundColor: "red" }}
+        height={500}
+        popup={popup}
+        setPopup={setPopup}
+      >
+        <Text>Hello</Text>
+      </SweetSlide>
+      <Button title="open" onPress={() => setPopup(true)} />
+      <Button title="close" onPress={() => setPopup(false)} />
+    </View>
   );
 };
 
