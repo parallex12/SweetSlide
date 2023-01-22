@@ -1,6 +1,6 @@
 {
   "name": "sweet-slider-expo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Slider View for react native | expo. ",
   "main": "index.js",
   "scripts": {
