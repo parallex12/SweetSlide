@@ -11,6 +11,9 @@
 
 ## Usage
 
+#### NOTE:- 
+  - dont forget to Install `npm i rn-sliding-up-panel`
+
 ```javascript
 import SweetSlide from "sweet-slider-expo";
 ```
