@@ -1,12 +1,18 @@
 {
   "name": "sweet-slider-expo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Slider View for react native | expo. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["expo","slider","modal","reactnative","slide"],
+  "keywords": [
+    "expo",
+    "slider",
+    "modal",
+    "reactnative",
+    "slide"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/parallex12/SweetSlide.git"
